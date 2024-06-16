@@ -1,6 +1,0 @@
-{
-    "loader":"dynamictrees:surface_root",
-    "textures":{
-        "bark":"meadow:block/pine_log_side"
-    }
-}

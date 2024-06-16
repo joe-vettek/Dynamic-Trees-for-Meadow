@@ -4,5 +4,5 @@
     "primitive_log":"meadow:pine_log",
     "primitive_stripped_log":"meadow:stripped_pine_log",
     "max_branch_radius":8,
-    "generate_surface_root":true
+    "conifer_variants": true
 }

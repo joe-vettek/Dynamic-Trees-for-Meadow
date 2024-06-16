@@ -1,0 +1,18 @@
+[
+  {
+    "select": {
+      "tag": "#meadow:is_meadow"
+    },
+    "apply": {
+      "species": {
+        "method": "splice_before",
+        "random": {
+          "dtmeadow:alpine_birch": 1,
+          "dtmeadow:orange_pine": 1,
+          "dtmeadow:pine": 1,
+          "...": 3
+        }
+      }
+    }
+  }
+]

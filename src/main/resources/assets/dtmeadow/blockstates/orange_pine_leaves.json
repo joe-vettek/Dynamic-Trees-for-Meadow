@@ -1,7 +1,7 @@
 {
     "variants":{
         "":{
-            "model":"dtmeadow:block/pine_root"
+            "model":"meadow:block/pine_leaves_2"
         }
     }
 }

@@ -6,7 +6,7 @@
   "lowest_branch_height": 4,
   "growth_rate": 0.78,
   "growth_logic_kit": "conifer",
-  "leaves_properties": "dtmeadow:pine",
+  "leaves_properties": "dtmeadow:orange_pine",
   "environment_factors": {
     "cold": 1.05,
     "hot": 0.45,
@@ -17,9 +17,9 @@
     "tag": "#meadow:is_meadow"
   },
   "primitive_sapling": "meadow:pine_sapling",
-  "always_show_on_waila": false,
-  "generate_seed": true,
-  "generate_sapling": true,
+  "always_show_on_waila": true,
+  "generate_seed": false,
+  "generate_sapling": false,
   "features": [
     "conifer_topper",
     "rot_soil",

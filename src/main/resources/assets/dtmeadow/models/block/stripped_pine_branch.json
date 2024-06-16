@@ -1,7 +1,7 @@
 {
     "loader":"dynamictrees:branch",
     "textures":{
-        "bark":"meadow:block/stripped_pine_side",
+        "bark":"meadow:block/stripped_pine_log",
         "rings":"meadow:block/stripped_pine_top"
     }
 }
