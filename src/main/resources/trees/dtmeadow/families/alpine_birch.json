@@ -1,5 +1,5 @@
 {
-  "common_leaves": "birch",
+  "common_leaves": "dtmeadow:birch",
   "common_species": "dtmeadow:alpine_birch",
   "primitive_log": "meadow:alpine_birch_log",
   "primitive_stripped_log": "minecraft:stripped_birch_log",

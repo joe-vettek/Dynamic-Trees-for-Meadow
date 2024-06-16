@@ -8,8 +8,8 @@
   "growth_logic_kit": {
     "name": "conifer",
     "properties": {
-      "energy_divisor":1,
-      "horizontal_limiter":2
+      "energy_divisor": 1,
+      "horizontal_limiter": 2
     }
   },
   "leaves_properties": "dtmeadow:orange_pine",
@@ -28,7 +28,12 @@
   "generate_sapling": false,
   "features": [
     "conifer_topper",
-    "rot_soil",
-    "podzol"
+    "podzol",
+    {
+      "name": "rot_soil",
+      "properties": {
+        "rotten_soil": "minecraft:rooted_dirt"
+      }
+    }
   ]
 }

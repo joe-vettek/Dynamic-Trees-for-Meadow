@@ -28,7 +28,12 @@
   "generate_sapling": true,
   "features": [
     "conifer_topper",
-    "rot_soil",
+    {
+      "name": "rot_soil",
+      "properties": {
+        "rotten_soil": "minecraft:rooted_dirt"
+      }
+    },
     "podzol"
   ]
 }
