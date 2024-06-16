@@ -5,7 +5,13 @@
   "up_probability": 2,
   "lowest_branch_height": 4,
   "growth_rate": 0.78,
-  "growth_logic_kit": "conifer",
+  "growth_logic_kit": {
+    "name": "conifer",
+    "properties": {
+      "energy_divisor": 1,
+      "horizontal_limiter": 2
+    }
+  },
   "leaves_properties": "dtmeadow:pine",
   "environment_factors": {
     "cold": 1.05,

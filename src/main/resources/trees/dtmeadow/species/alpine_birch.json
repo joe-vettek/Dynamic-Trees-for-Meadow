@@ -5,8 +5,13 @@
   "up_probability": 4,
   "lowest_branch_height": 4,
   "growth_rate": 1.25,
-  "growth_logic_kit": "conifer",
-  "leaves_properties": "birch",
+  "growth_logic_kit": {
+    "name": "conifer",
+    "properties": {
+      "energy_divisor":1,
+      "horizontal_limiter":1
+    }
+  },
   "environment_factors": {
     "#forge:is_cold": 0.75,
     "#forge:is_hot": 0.5,
@@ -16,7 +21,6 @@
   "perfect_biomes": {
     "tag": "#meadow:is_meadow"
   },
-  "primitive_sapling": "birch_sapling",
   "always_show_on_waila": false,
   "generate_seed": false,
   "generate_sapling": false,
