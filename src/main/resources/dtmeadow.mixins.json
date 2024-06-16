@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "xueluoanping.dtmeadow.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "dtmeadow.refmap.json",
+  "mixins": [
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "minVersion": "0.8"
+}
