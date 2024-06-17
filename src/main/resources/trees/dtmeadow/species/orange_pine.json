@@ -28,11 +28,16 @@
   "generate_sapling": false,
   "features": [
     "conifer_topper",
-    "podzol",
     {
-      "name": "rot_soil",
+      "name": "dtmeadow:alt_ground",
       "properties": {
-        "rotten_soil": "minecraft:rooted_dirt"
+        "block": "minecraft:rooted_dirt"
+      }
+    },
+    {
+      "name": "dtmeadow:alt_ground",
+      "properties": {
+        "block": "minecraft:podzol"
       }
     }
   ]
