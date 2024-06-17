@@ -67,9 +67,8 @@ public class AltGroundFeature extends GenFeature {
     @Override
     protected boolean postGrow(@NotNull GenFeatureConfiguration configuration, PostGrowContext context) {
         var result = false;
-        // if (context.natural() && context.fertility() > 0
-        //         && context.level().getRandom().nextFloat() > 0.25)
-        {
+        if (context.natural() && context.fertility() > 0
+                && context.level().getRandom().nextFloat() > 0.25) {
             final LevelAccessor world = context.level();
             final FindEndsNode endFinder = new FindEndsNode();
             TreeHelper.startAnalysisFromRoot(world, context.pos(), new MapSignal(endFinder));
