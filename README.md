@@ -1,3 +1,3 @@
-# Dynamic Trees for FruitTrees
- 
-[curseforge](https://legacy.curseforge.com/minecraft/mc-mods/dynamic-trees-for-fruit-trees)
+# Dynamic Trees for Meadow
+
+[curseforge](https://legacy.curseforge.com/minecraft/mc-mods/dynamic-trees-for-meadow)
